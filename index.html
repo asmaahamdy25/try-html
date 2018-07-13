@@ -1,0 +1,574 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!-- ==================== Header ==================== -->
+    <!-- ==================== Header Contact ==================== -->
+    <div class="headerContact">
+        <div class="container ">
+            <div class="left">
+                <i class="fa fa-phone-square" aria-hidden="true"></i> +0123 456 70 90
+            </div>
+            <div class="right">
+                <div class="left">
+                    <i class="fa fa-facebook hbg fw" aria-hidden="true"></i>
+                    <i class="fa fa-twitter hbg fw" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin hbg fw" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble hbg fw" aria-hidden="true"></i>
+                    <i class="fa fa-skype hbg fw" aria-hidden="true"></i>
+                </div>
+                <div class="right">
+                    <input type="text" size="10" class="hbt">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+            <p class="clear"></p>
+        </div>
+    </div>
+    <!-- ==================== Header Menu ==================== -->
+    <div class="headerMenu">
+        <div class="container">
+            <div class="left">
+                <img src="images/logo.png" />
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="hbr active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="hbr">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="hbr">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="hbr">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="hbr dropdown">
+                        <a href="#" class="dropdown">Pages
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-content dropdown demp">
+                            <li>Blog Single</li>
+                            <li>Pricing</li>
+                            <li>404</li>
+                            <li>Shortcodes</li>
+                        </ul>
+                    </li>
+                    <li class="hbr">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="hbr">
+                        <a href="contacts.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ==================== Background Cover ==================== -->
+    <div>
+        <ol class="points">
+            <li style="font-size:50px" class="point select" onclick="currentDiv(1)"></li>
+            <li class="point nonselect" onclick="currentDiv(2)"></li>
+            <li class="point nonselect" onclick="currentDiv(3)"></li>
+        </ol>
+        <div id="bg-cover">
+            <i class="fa fa-chevron-left har fw posla" aria-hidden="true" onclick="plusDivs(-1)"></i>
+            <i class="fa fa-chevron-right har fw posra" aria-hidden="true" onclick="plusDivs(1)"></i>
+            <div class="container bgPos" >
+                <div class=" bglp " >
+                    <h1>
+                        <br> consectetur adipisicing elit</h1>
+                    <br>
+                    <h3>Accusantium doloremque laudantium totam rem
+                        <br> aperiam, eaque ipsa...</h3>
+                    <br>
+                    <div class="hbr active">Read More</div>
+                </div>
+                <div class="bgrp">
+                    <img src="images/img1.png" alt="img">
+                </div>
+            </div>
+            <div class="container bgPos" >
+                <div class=" bglp " >
+                    <h1>
+                        <br> consectetur adipisicing elit</h1>
+                    <br>
+                    <h3>Accusantium doloremque laudantium totam rem
+                        <br> aperiam, eaque ipsa...</h3>
+                    <br>
+                    <div class="hbr active">Read More</div>
+                </div>
+                <div class="bgrp">
+                    <img src="images/slider/img2.png" alt="img">
+                </div>
+            </div>
+            <div class="container bgPos"  >
+                <div class=" bglp " >
+                    <h1>
+                        <br> consectetur adipisicing elit</h1>
+                    <br>
+                    <h3>Accusantium doloremque laudantium totam rem
+                        <br> aperiam, eaque ipsa...</h3>
+                    <br>
+                    <div class="hbr active">Read More</div>
+                </div>
+                <div class="bgrp">
+                    <img src="images/slider/img3.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==================== Recent Works ==================== -->
+    <div class=" recent-work">
+        <div class="container div-padding">
+            <div class="divmargin works-font">
+                <h1>Recent Works</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <br> et dolore magna aliqua. Ut enim ad minim veniam </p>
+            </div>
+            <div>
+                <div class="rescent-work-outter left">
+                    <img src="images/recent/item1.png" alt="" class="img">
+                    <div class="overlay">
+                        <div class="rescent-work-inner">
+                            <h3>
+                                <a href="#">Business theme</a>
+                            </h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <br>
+                            <a class="preview" onclick="showImages(1)">
+                                <i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                    <div class="overlayImage" onclick="offImages(1)">
+                        <img src="images/recent/item1.png" alt="" class="img imageView">
+                    </div>
+                </div>
+                <div class="rescent-work-outter left">
+                    <img src="images/recent/item2.png" alt="" class="img">
+                    <div class="overlay">
+                        <div class="rescent-work-inner">
+                            <h3>
+                                <a href="#">Business theme</a>
+                            </h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <br>
+                            <a class="preview" onclick="showImages(2)">
+                                <i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                    <div class="overlayImage" onclick="offImages(2)">
+                        <img src="images/recent/item2.png" alt="" class="img imageView">
+                    </div>
+                </div>
+                <div class="rescent-work-outter left">
+                    <img src="images/recent/item3.png" alt="" class="img">
+                    <div class="overlay">
+                        <div class="rescent-work-inner">
+                            <h3>
+                                <a href="#">Business theme</a>
+                            </h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <br>
+                            <a class="preview" onclick="showImages(3)">
+                                <i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                    <div class="overlayImage" onclick="offImages(3)">
+                        <img src="images/recent/item3.png" alt="" class="img imageView">
+                    </div>
+                </div>
+                <div class="rescent-work-outter left">
+                    <img src="images/recent/item4.png" alt="" class="img">
+                    <div class="overlay">
+                        <div class="rescent-work-inner">
+                            <h3>
+                                <a href="#">Business theme</a>
+                            </h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <br>
+                            <a class="preview" onclick="showImages(4)">
+                                <i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                    <div class="overlayImage" onclick="offImages(4)">
+                        <img src="images/recent/item4.png" alt="" class="img imageView">
+                    </div>
+                </div>
+                <div class="rescent-work-outter left">
+                    <img src="images/recent/item5.png" alt="" class="img">
+                    <div class="overlay">
+                        <div class="rescent-work-inner">
+                            <h3>
+                                <a href="#">Business theme</a>
+                            </h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <br>
+                            <a class="preview" onclick="showImages(5)">
+                                <i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                    <div class="overlayImage" onclick="offImages(5)">
+                        <img src="images/recent/item5.png" alt="" class="img imageView">
+                    </div>
+                </div>
+                <div class="rescent-work-outter left">
+                    <img src="images/recent/item6.png" alt="" class="img">
+                    <div class="overlay">
+                        <div class="rescent-work-inner">
+                            <h3>
+                                <a href="#">Business theme</a>
+                            </h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <br>
+                            <a class="preview" onclick="showImages(6)">
+                                <i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                    <div class="overlayImage" onclick="offImages(6)">
+                        <img src="images/recent/item6.png" alt="" class="img imageView">
+                    </div>
+                </div>
+                <div class="rescent-work-outter left">
+                    <img src="images/recent/item7.png" alt="" class="img">
+                    <div class="overlay">
+                        <div class="rescent-work-inner">
+                            <h3>
+                                <a href="#">Business theme</a>
+                            </h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <br>
+                            <a class="preview" onclick="showImages(7)">
+                                <i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                    <div class="overlayImage" onclick="offImages(7)">
+                        <img src="images/recent/item7.png" alt="" class="img imageView">
+                    </div>
+                </div>
+                <div class="rescent-work-outter left">
+                    <img src="images/recent/item8.png" alt="" class="img">
+                    <div class="overlay">
+                        <div class="rescent-work-inner">
+                            <h3>
+                                <a href="#">Business theme</a>
+                            </h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <br>
+                            <a class="preview" onclick="showImages(8)">
+                                <i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                    <div class="overlayImage" onclick="offImages(8)">
+                        <img src="images/recent/item8.png" alt="" class="img imageView">
+                    </div>
+                </div>
+                <p class="clear "></p>
+            </div>
+        </div>
+    </div>
+    <!-- ==================== Our Service ==================== -->
+    <div id="bg-our-service">
+        <div class="container div-padding">
+            <div class="divmargin service-font">
+                <h1>Our Service</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="service-pad left ">
+                <div class=" service-bg">
+                    <img src="images/services/services1.png" alt="" class="left service-img">
+                    <div>
+                        <h3>SEO Marketing</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                    <p class="clear"></p>
+                </div>
+            </div>
+            <div class="service-pad left ">
+                <div class=" service-bg">
+                    <img src="images/services/services2.png" alt="" class="left service-img">
+                    <div>
+                        <h3>SEO Marketing</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                    <p class="clear"></p>
+                </div>
+            </div>
+            <div class="service-pad left ">
+                <div class=" service-bg">
+                    <img src="images/services/services3.png" alt="" class="left service-img">
+                    <div>
+                        <h3>SEO Marketing</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                    <p class="clear"></p>
+                </div>
+            </div>
+            <p class="clear"></p>
+            <div class="service-pad left ">
+                <div class=" service-bg">
+                    <img src="images/services/services4.png" alt="" class="left service-img">
+                    <div>
+                        <h3>SEO Marketing</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                    <p class="clear"></p>
+                </div>
+            </div>
+            <div class="service-pad left ">
+                <div class=" service-bg">
+                    <img src="images/services/services5.png" alt="" class="left service-img">
+                    <div>
+                        <h3>SEO Marketing</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                    <p class="clear"></p>
+                </div>
+            </div>
+            <div class="service-pad left ">
+                <div class=" service-bg">
+                    <img src="images/services/services6.png" alt="" class="left service-img">
+                    <div>
+                        <h3>SEO Marketing</h3>
+                        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                    </div>
+                    <p class="clear"></p>
+                </div>
+            </div>
+            <p class="clear"></p>
+        </div>
+    </div>
+    <!-- ==================== Our Skills ==================== -->
+    <div class="links-bg">
+        <div class="container div-padding">
+            <div class="left" style="width:50%;">
+                <h1>Why People like us?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <h3>Graphic Design</h3>
+                <progress value="85" max="100"></progress>
+                <h3>HTML</h3>
+                <progress value="95" max="100"></progress>
+                <h3>CSS</h3>
+                <progress value="80" max="100"></progress>
+                <h3>Wordpress</h3>
+                <progress value="90" max="100"></progress>
+            </div>
+            <div class="right" style="width:50%;">
+                <h1>Why People like us?</h1>
+                <button class="accordion active">Lorem ipsum dolor sit amet</button>
+                <div class="panel" style="max-height: 110px;">
+                    <p>
+                        <h3 style="color:black;">Adipisicing elit</h3>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                </div>
+                <button class="accordion">Lorem ipsum dolor sit amet</button>
+                <div class="panel">
+                    <p>
+                        <p>
+                            <h3 style="color:black;">Adipisicing elit</h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </p>
+                </div>
+                <button class="accordion">Lorem ipsum dolor sit amet</button>
+                <div class="panel">
+                    <p>
+                        <p>
+                            <h3 style="color:black;">Adipisicing elit</h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </p>
+                </div>
+                <button class="accordion">Lorem ipsum dolor sit amet</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <p class="clear"></p>
+        </div>
+    </div>
+    <!-- ==================== Testimonials ==================== -->
+    <div class="links-bg" style="background-color: #fff;">
+        <div class="container div-padding">
+            <div class="left Testimonials" style="width:65%;">
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'One')" id="defaultOpen">Responsive Web Design</button>
+                    <button class="tablinks" onclick="openTab(event, 'Two')">Premium Plugin Included</button>
+                    <button class="tablinks" onclick="openTab(event, 'Three')">Predefine Layout</button>
+                    <button class="tablinks" onclick="openTab(event, 'Four')">Our Philosopy</button>
+                    <button class="tablinks" onclick="openTab(event, 'Five')">What We Do?</button>
+                </div>
+
+                <div id="One" class="tabcontent">
+                    <h3>One</h3>
+                    <p>Responsive Web Design</p>
+                </div>
+
+                <div id="Two" class="tabcontent">
+                    <h3>Two</h3>
+                    <p>Premium Plugin Included</p>
+                </div>
+
+                <div id="Three" class="tabcontent">
+                    <h3>Three</h3>
+                    <p>Predefine Layout</p>
+                </div>
+                <div id="Four" class="tabcontent">
+                    <h3>Four</h3>
+                    <p>Our Philosopy</p>
+                </div>
+                <div id="Five" class="tabcontent">
+                    <h3>Five</h3>
+                    <p>What We Do?</p>
+                </div>
+            </div>
+            <div class="right" style="width:35%;">
+
+            </div>
+            <p class="clear"></p>
+        </div>
+    </div>
+    <!-- ==================== Links ==================== -->
+    <div class="links-bg">
+        <div class="container div-padding ">
+            <div class="left links-div">
+                <h2>COMPANY</h2>
+                <p class="links-font">
+                    <a href="#" class="links">About us</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">We are hiring</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Meet the team</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Copyright</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Terms of use</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Privacy policy</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Contact us</a>
+                </p>
+            </div>
+            <div class="left links-div">
+                <h2>Support</h2>
+                <p class="links-font">
+                    <a href="#" class="links">Faq</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Blog</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Forum</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Documentation</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Refund policy</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Ticket system</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Billing system</a>
+                </p>
+            </div>
+            <div class="left links-div">
+                <h2>COMPANY</h2>
+                <p class="links-font">
+                    <a href="#" class="links">About us</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">We are hiring</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Meet the team</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Copyright</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Terms of use</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Privacy policy</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Contact us</a>
+                </p>
+            </div>
+            <div class="left links-div">
+                <h2>Support</h2>
+                <p class="links-font">
+                    <a href="#" class="links">Faq</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Blog</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Forum</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Documentation</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Refund policy</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Ticket system</a>
+                </p>
+                <p class="links-font">
+                    <a href="#" class="links">Billing system</a>
+                </p>
+            </div>
+            <p class="clear"></p>
+        </div>
+    </div>
+    <!-- ==================== Footer ==================== -->
+    <div id="footer-bg">
+        <div class="container">
+            <div class="left">© 2013 ShapeBootstrap. All Rights Reserved.</div>
+            <div class="right">
+                <ul>
+                    <li class="footer">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="footer">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="footer">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="footer">
+                        <a href="#">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
