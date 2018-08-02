@@ -1,0 +1,623 @@
+/* ==================== General ==================== */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif 
+}
+body
+{
+    background-color: rgb(233, 229, 229);
+    height: 2000px;
+    color: white;
+}
+.left
+{
+    float:left;
+}
+.right
+{
+    float:right;
+}
+p.clear
+{
+    clear: both;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width:1170px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.div-padding
+{
+    padding: 70px;
+}
+
+/* ==================== Header ==================== */
+
+/* ==================== Header Contact ==================== */
+.hb,.hbg,.hbt,.hbr,.har
+{   
+   display: inline-block;
+   padding: 10px;
+   border-radius: 3px; 
+}
+.hdlr
+{   
+    display: block;
+    padding: 10px;
+    border-radius: 3px; 
+ }
+.hbg  
+{
+    background-color: #404040;
+}
+.hbt
+{
+    background-color: transparent;
+    padding: 0px;
+    border: 0;
+    height: 35px;
+}
+input::-webkit-input-placeholder {
+    color: white !important;
+    padding-left: 5px;
+    }
+.hbg:hover 
+{
+    background-color: #c52d2f;
+}
+.hbr:hover 
+{
+    background-color: #c52d2f;
+}
+
+.hdlr:hover 
+{
+    background-color: #c52d2f;
+}
+.headerContact
+{
+    padding: 10px 0;
+    background: #191919;
+    border-bottom: 1px solid #222;
+    line-height: 28px;
+}
+.fw
+{
+    width: 15px;
+    text-align: center;
+}
+
+.headerContact input.hbt:hover
+{
+    width: 170px;
+    
+}
+.headerMenu
+{
+    background: #151515;
+    padding: 15px 0;
+    min-height: 50px;
+
+}
+ul li .hbr
+{
+    width:30px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    
+}
+li
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 13px;
+    vertical-align: bottom;
+    font-size: 17px;
+    list-style: none;
+    
+}
+.active
+{
+    background-color: #c52d2f;
+    color: #fff;
+}
+
+.dropdown {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #151515;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin: 10px 0px 0px 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+
+
+.dropdown-content a
+{
+    color: white;
+    padding:  10px 10px;
+    display:  inline-block;
+    background: transparent;
+}
+.dropdown ul{
+    margin: 12px 10px 0 0px;
+    padding: 0;
+    opacity: 0.9;
+}
+.dropdown-content li
+{
+    margin: 10px 0 0 0 ;
+    padding: 5px 20px;
+    display: fixed;
+    
+}
+.dropdown-content a, .dropdown-content li:hover
+{
+    background-color: #c52d2f;    
+}
+
+/* ==================== Background Cover ==================== */
+
+#bg-cover
+{
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.har  
+{
+    background-color: #c52d2f;
+    margin: 2px;
+}
+.har:hover 
+{
+    background-color: #404040;
+}
+.bgPos
+{
+    position: relative;
+}
+.posla
+{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
+.posra
+{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+.bglp
+{
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+.bgrp
+{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+
+.points{
+    bottom: 20px;
+    position: absolute;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+  }
+  .points li {
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  .points li.nonselect{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 15px 0 0;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  .points li.select {
+    width: 20px;
+    height: 20px;
+    background-color: #c52d2f;
+    margin: 0 15px 0 0;
+    border: 1px solid #c52d2f;
+    position: relative;
+  }
+
+/* ==================== Recent Works ==================== */
+.overlayImage {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  .imageView {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 50%;
+    height: 70%;
+  }
+  .preview{
+    cursor: pointer;
+  }
+.works-font, .bigFont
+{
+    font-size: 18px;
+    text-align: center;    
+    font-family: 'Open Sans', sans-serif;
+    color: #4e4e4e;
+}
+.bigFont
+{
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.divmargin
+{
+    margin-bottom: 70px;
+
+}
+
+.recent-work
+{
+    background-color: #fff;
+}
+
+.rescent-work-outter
+{
+    position: relative;
+    
+}
+
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #c52d2f;
+    color: #fff;
+    vertical-align: middle;
+    margin: 0;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+}
+.rescent-work-inner
+{      
+    opacity: 0.8;
+      
+}
+
+.rescent-work-outter:hover .overlay
+{
+    opacity: 1;
+}
+
+/* ==================== Our Service ==================== */
+
+#bg-our-service
+{
+    background : #000  url(../images/services/bg_services.png) ;
+    background-size: cover;
+    height: 695PX;
+}
+.service-font, .service-bigFont
+{
+    font-size: 18px;
+    text-align: center;    
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.service-pad
+{
+    padding: 0px 40px;
+    width: 24%;
+
+
+}
+.service-img
+{
+    height: 90;
+    /* max-width: 100%; */
+    padding: 0px 15px;
+}
+.service-bg
+{
+    background: #fff;
+    color: #787878;
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin: 0 0 40px 0;
+    width: 100%;
+
+}
+
+/* ==================== Links ==================== */
+.links-bg
+{
+    background: #f5f5f5;
+    border-bottom: 5px solid #c52d2f;
+    font-size: 14px; 
+    color: #000;
+    line-height: 2.5;
+}
+.links-font .links
+{
+    color: #808080;
+}
+.links-div
+{
+    display: inline-block;
+    text-align: left;
+    padding: 90px;
+}
+
+/* ==================== Footer ==================== */
+#footer-bg
+{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #fff;
+    background: #2e2e2e;
+}
+.footer-bg p
+{
+    display: inline-block;
+}
+
+#footer-bg .container .right ul >li
+{   
+   display: inline-block;
+   padding: 0 20;
+   margin: 0;
+
+
+}
+
+/* ==================== Contacts ==================== */
+
+#map-cover
+{
+    background: url(../images/map.jpg);
+    background-size: cover;
+    height: 440px;
+}
+.map-style
+{
+    border: 10px solid #dddddd;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0px 0px 0 70px;
+}
+
+/* ==================== How to Reach Us ? ==================== */
+
+.reach-us
+{
+    background-color: #fff;
+}
+
+#map-cover .seprate
+{
+    color: #4e4e4e;
+    line-height: 1.5;
+    padding: 10px 20px 25px 30px;
+
+}
+
+#map-cover p,h5
+{
+    margin: 0 0 10px;
+}
+
+/* ==================== Drop Your Message ==================== */
+.drop-message
+{
+    background-color: #fff;
+    color: #4e4e4e; 
+}
+
+.form-group
+{
+    color: #4e4e4e;
+    padding: 5px 0px 10px 0px;
+    margin: 0 70px 0 70px;
+
+}
+.form-group input , textarea
+{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 7px 12px;
+    border-color: #f2f2f2;
+    box-shadow: none;
+}
+textarea .message {
+    resize: none;
+    padding: 10px;
+}
+
+.buttonForm {
+    padding: 8px 20px;
+    background: #c52d2f;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.33;   
+    cursor: pointer;
+    margin-left: 49px;  
+}
+/* ==================== Our Skills ==================== */
+button.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background-color: #e6e6e6;
+    border: 0 none;
+    box-shadow: none;
+  }
+
+
+  button.accordion.active{
+    background-color: #1f1f20;
+    color: white;
+  }
+
+  button.accordion.active:after {
+    background-color: red;
+  }
+
+  button.accordion:after {
+    content: "\3e";
+    font-weight: bold;
+    float: right;
+    background-color: #c9c9c9;
+    padding: 18px;
+    margin: -18px;
+  }
+
+  div.panel {
+    color: #858586;
+    padding: 0 18px;
+    width: 94%;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-top: 1.5px solid #d9d9d9;
+  }
+  progress {
+    -webkit-appearance: none;
+    width: 90%;
+  }
+  ::-webkit-progress-bar {
+    background-color: #e6e6e6;
+  }
+/* ==================== Testimonials ==================== */
+.Testimonials *{
+    box-sizing: border-box;
+}
+/* Style the tab */
+div.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 35%;
+    height: 322px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color: #1f1f20;
+    color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 65%;
+    border-left: none;
+    height: 322px;
+    color: #858586;
+}
